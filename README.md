@@ -1,12 +1,24 @@
-# React + Vite
+# Skip Select Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React-based project where users can select a skip from a list of available skips for waste collection. 
 
-Currently, two official plugins are available:
+## Steps followed:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. **Fetching data**: The skip options are fetched using the `axios` library from the provided API.
+2. **UI/UX improvements**: The page has been redesigned to improve the UI, making the experience more engaging.
+3. **Responsive Design**: The page is fully responsive and adjusts its layout based on the screen size.
+4. **Animation**: Added smooth animations using `framer-motion` to enhance user interaction.
 
-## Expanding the ESLint configuration
+## Technologies Used:
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Axios
+- Framer-motion
+- Tailwind CSS
+
+## How to run the project:
+
+1. Clone this repository.
+2. Run `npm install` to install the dependencies.
+3. Run `npm run dev` to start the development server.
+
